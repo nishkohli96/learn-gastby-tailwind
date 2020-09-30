@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./user-desc.module.css";
 import Container from "../components/container";
 
-console.log(styles);
-
 const User = props => (
     <div className={styles.user}>
         <img src={props.avatar} className={styles.avatar} alt="" />
