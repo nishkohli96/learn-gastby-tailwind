@@ -3,7 +3,8 @@ package.json
 package-lock.json
 public
 
-src/images
+src/assets/images
 
 .gitignore
 .prettierignore
+.prettierrc
