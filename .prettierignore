@@ -8,3 +8,6 @@ src/assets/images
 .gitignore
 .prettierignore
 .prettierrc
+
+yarn.lock
+yarn-error.log
