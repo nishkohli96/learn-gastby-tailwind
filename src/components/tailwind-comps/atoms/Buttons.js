@@ -21,7 +21,7 @@ const Buttons = () => {
             </button>
 
             <button className="hover:bg-green-500 sm:hover:bg-blue-500 mr-5 mb-5 bg-purple-600 text-white px-5 py-2">
-                Responsive Hover color 
+                Responsive Hover color
             </button>
 
             <a href="/" class="text-blue-600 visited:text-red-600 mr-5 mb-5">

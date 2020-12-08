@@ -1,6 +1,6 @@
 module.exports = {
     purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-    darkMode: 'media', // or 'media' or 'class'
+    darkMode: "media", // or 'media' or 'class'
     theme: {
         extend: {},
     },
@@ -8,7 +8,7 @@ module.exports = {
         extend: {
             opacity: ["disabled"],
             textColor: ["visited"],
-            backgroundColor: ['checked'],
+            backgroundColor: ["checked"],
         },
     },
     plugins: [],
