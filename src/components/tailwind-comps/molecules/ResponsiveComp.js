@@ -7,11 +7,19 @@ const ResponsiveComp = () => {
     return (
         <div className="my-5">
             {/* Width of 16 by default, 20 on medium screens, and 25 on large screens */}
-            <img className="w-16 md:w-20 lg:w-25" src={Logo} />
+            <img
+                className="w-16 md:w-20 lg:w-25"
+                alt="Placeholder"
+                src={Logo}
+            />
 
             <div className="mt-5 max-w-md mx-auto bg-blue-100 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-                <div className="md:flex">  {/*md:flex means display: flex */}
-                    <div className="md:flex-shrink-0"> {/* to prevent shrinking on medium screens and larger. */}
+                <div className="md:flex">
+                    {" "}
+                    {/*md:flex means display: flex */}
+                    <div className="md:flex-shrink-0">
+                        {" "}
+                        {/* to prevent shrinking on medium screens and larger. */}
                         <img
                             className="h-48 w-full object-cover md:w-48"
                             src={Logo}
@@ -23,7 +31,7 @@ const ResponsiveComp = () => {
                             Case study
                         </div>
                         <a
-                            href="#"
+                            href="/"
                             className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
                         >
                             Finding customers for your new business

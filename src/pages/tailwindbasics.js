@@ -8,7 +8,7 @@ const TailwindBasics = () => {
         <div className="p-5">
             <Buttons />
             <ResponsiveComp />
-            <InputForm/>
+            <InputForm />
         </div>
     );
 };

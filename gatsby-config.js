@@ -14,18 +14,18 @@ module.exports = {
             },
         },
         {
-            resolve: 'gatsby-plugin-module-resolver',
+            resolve: "gatsby-plugin-module-resolver",
             options: {
-              root: './src',
-              aliases: {
-                '@Pages': './pages',
-                '@ReactComps': './components/react-comps', 
-                '@TwAtoms':'./components/tailwind-comps/atoms',                
-                '@TwMolecules': './components/tailwind-comps/molecules', 
-                '@Images': './assets/images',
-                '@Styles': './styles'
-            }
-            }
+                root: "./src",
+                aliases: {
+                    "@Pages": "./pages",
+                    "@ReactComps": "./components/react-comps",
+                    "@TwAtoms": "./components/tailwind-comps/atoms",
+                    "@TwMolecules": "./components/tailwind-comps/molecules",
+                    "@Images": "./assets/images",
+                    "@Styles": "./styles",
+                },
+            },
         },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,

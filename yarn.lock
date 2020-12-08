@@ -6176,6 +6176,11 @@ gatsby-plugin-manifest@^2.4.32:
     semver "^7.3.2"
     sharp "^0.26.3"
 
+gatsby-plugin-module-resolver@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-module-resolver/-/gatsby-plugin-module-resolver-1.0.3.tgz#d98d0b51b5b99aa40db3382f6b5c049ca3018f01"
+  integrity sha512-MrE2JhDEiiZB6uLVJ0zpoZmHi36zkgGoNgBr9YQ4r6TUqayiNXU97NBhO87CRJQz8I4MaL6ZrOWjUdoHEXvndg==
+
 gatsby-plugin-offline@^3.2.29:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.6.0.tgz#781b959178c0721f2a8771f50d557c6003d1aa23"
@@ -10369,6 +10374,13 @@ postcss-flexbugs-fixes@^4.2.1:
   integrity sha512-9SiofaZ9CWpQWxOwRh1b/r85KD5y7GgvsNt1056k6OYLvWUun0czCvogfJgylC22uJTwW1KzY3Gz65NZRlvoiQ==
   dependencies:
     postcss "^7.0.26"
+
+postcss-focus-visible@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-focus-visible/-/postcss-focus-visible-5.0.0.tgz#61e0909244cd15b9075bd40a4f176aa4e2446dbc"
+  integrity sha512-KWMjuX+6Mbt7BvD7L9YETXXx8pmNSlT881Zdebbi5zLKdRIM0FIlwG87i/RXiwTf5nGJdaHA1KKsE6gW+O719A==
+  dependencies:
+    postcss "^7.0.27"
 
 postcss-functions@^3:
   version "3.0.0"
