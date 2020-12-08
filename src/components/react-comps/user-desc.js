@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/user-desc.module.css";
+import styles from "@Styles/user-desc.module.css";
 import Container from "./container";
 
 const User = props => (

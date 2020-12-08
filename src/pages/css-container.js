@@ -1,6 +1,6 @@
 import React from "react";
 
-import Container from "../components/react-comps/container";
+import Container from "@ReactComps/container";
 
 export default function About() {
     return (

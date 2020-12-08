@@ -1,5 +1,5 @@
 import React from "react";
-import * as Logo from "../../../assets/images/gatsby-icon.png";
+import * as Logo from "@Images/gatsby-icon.png";
 
 /* https://tailwindcss.com/docs/responsive-design */
 
@@ -7,7 +7,7 @@ const ResponsiveComp = () => {
     return (
         <div className="my-5">
             {/* Width of 16 by default, 20 on medium screens, and 25 on large screens */}
-            <img className="w-16 md:w-20 lg:w-25" alt="image" src={Logo} />
+            <img className="w-16 md:w-20 lg:w-25" src={Logo} />
             <div className="mt-5 max-w-md mx-auto bg-blue-100 rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                 <div className="md:flex">
                     <div className="md:flex-shrink-0">
