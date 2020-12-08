@@ -8,6 +8,7 @@ const InputForm = () => {
                 <button className="bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50">
                     Sign up
                 </button>
+                <input type="checkbox" aria-label='Option' class="checked:bg-blue-600 w-5 h-5 checked:border-transparent ml-5" />
             </form>
 
             <div className="group border-indigo-500 hover:bg-white hover:shadow-lg hover:border-transparent">
