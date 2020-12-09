@@ -14,7 +14,6 @@ const IndexPage = () => (
             <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
                 <Image />
             </div>
-
             <Link to="/page-2" className="text-red-400 visited:text-purple-600">
                 Go to page 2
             </Link>{" "}
@@ -32,9 +31,8 @@ const IndexPage = () => (
             >
                 Tailwind Demo
             </Link>
-            <br/>
-            <Link to="/darkmode" >DarkMode Page</Link> 
-            
+            <br />
+            <Link to="/darkmode">DarkMode Page</Link>
         </div>
     </Layout>
 );

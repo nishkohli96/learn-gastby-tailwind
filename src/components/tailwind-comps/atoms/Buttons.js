@@ -27,6 +27,11 @@ const Buttons = () => {
             <a href="/" class="text-blue-600 visited:text-red-600 mr-5 mb-5">
                 Visited Link
             </a>
+
+            {/* ClassName styles defined in global.css under layer components */}
+            <button className="btn">Button</button>
+            <button className="btn-blue">Blue Button</button>
+            <button className="btn-indigo">Indigo Button</button>
         </div>
     );
 };

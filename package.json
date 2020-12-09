@@ -22,13 +22,14 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-toggle": "^4.1.1",
     "react-typography": "^0.16.19",
     "tailwindcss": "^2.0.1",
     "typography": "^0.16.19",
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "^2.2.1"
   },
   "keywords": [
     "gatsby"

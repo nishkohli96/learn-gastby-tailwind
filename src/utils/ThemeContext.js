@@ -1,24 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export const ThemeContext = React.createContext({
-    theme: '',
+    theme: "",
     setTheme: () => {},
 });
 
 const ThemeContextProvider = ({ children }) => {
-
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState("light");
 
     useEffect(() => {
         function loadTheme() {
-            const theme = localStorage.getItem('theme');
-            return theme || 'light';
+            const theme = localStorage.getItem("theme");
+            return theme || "light";
         }
         setTheme(loadTheme());
     }, []);
 
     useEffect(() => {
-        localStorage.setItem('theme', theme);
+        localStorage.setItem("theme", theme);
     }, [theme]);
 
     return (

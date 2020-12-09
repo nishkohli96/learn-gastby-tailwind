@@ -6,8 +6,8 @@
 
 // You can delete this file if you're not using it
 
-import React from 'react';
-import ThemeContextProvider from './src/utils/ThemeContext';
+import React from "react";
+import ThemeContextProvider from "./src/utils/ThemeContext";
 import "./src/styles/global.css";
 
 export const wrapRootElement = ({ element }) => {
