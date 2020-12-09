@@ -24,6 +24,7 @@ module.exports = {
                     "@TwMolecules": "./components/tailwind-comps/molecules",
                     "@Images": "./assets/images",
                     "@Styles": "./styles",
+                    "@Utils": "./utils"
                 },
             },
         },
