@@ -1,10 +1,26 @@
+/*  This injects Tailwind's base styles and any base styles registered by plugins. */
 @tailwind base;
+
+/*  This injects Tailwind's component classes and any component classes registered by 
+    plugins. */
 @tailwind components;
+
+/*  This injects Tailwind's utility classes and any utility classes registered by 
+    plugins */
 @tailwind utilities;
+
+/**
+ * Use this directive to control where Tailwind injects the responsive
+ * variations of each utility.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+@tailwind screens;
 
 @layer base {
     h1 {
-        @apply text-2xl;
+        @apply text-2xl bg-blue-500 hover:bg-blue-700 text-white;
     }
     h2 {
         @apply text-xl;
@@ -20,6 +36,23 @@
     .btn-indigo {
         @apply py-2 px-4 bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75;
     }
+    .txBlue {
+        @apply text-blue-900; /* Make sure to incl ; at the end */
+    }
+    .bgViolet {
+        @apply bg-purple-400 p-2 hover:bg-purple-800;
+    }
+}
+
+@responsive {
+    .bg-gradient-brand {
+        background-image: linear-gradient(blue, green);
+    }
+}
+
+/* Can use @apply inside normal css classes as well */
+.customText {
+    @apply text-red-200;
 }
 
 .theme-light {

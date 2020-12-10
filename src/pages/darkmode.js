@@ -8,7 +8,12 @@ const DarkModePage = () => {
             <p className="dark:hover:text-green-300 hover:text-blue-600 dark:text-white text-black">
                 Hoverable themed text
             </p>
-            <h1 className="text-green-300">Header Text h1</h1>
+
+            <div className="bg-gradient-brand m-2 p-2">
+                <h1>Header Text h1</h1>
+                <p className="txBlue bgViolet">Multi-Classes Text</p>
+                <p className="customText"> Hybrid Text</p>
+            </div>
         </div>
     );
 };
