@@ -5,6 +5,7 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = {
     purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+    important: true, // applies !important to styles
     darkMode: "media", // false,'media'-> to enable by default,'class'-> enable by toggle
     theme: {
         extend: {
@@ -13,6 +14,7 @@ module.exports = {
                 secondary: "var(--secondary)",
                 "main-text": "var(--text-main)",
                 "secondary-text": "var(--text-secondary)",
+                "regal-blue": "#243c5a",
             },
         },
     },

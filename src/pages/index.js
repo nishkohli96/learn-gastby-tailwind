@@ -32,7 +32,8 @@ const IndexPage = () => (
                 Tailwind Demo
             </Link>
             <br />
-            <Link to="/darkmode">DarkMode Page</Link>
+            <Link to="/darkmode">DarkMode Page</Link> <br />
+            <Link to="/container">Container</Link>
         </div>
     </Layout>
 );

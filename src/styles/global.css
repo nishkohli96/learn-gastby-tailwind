@@ -46,7 +46,7 @@
 
 @responsive {
     .bg-gradient-brand {
-        background-image: linear-gradient(blue, green);
+        background-image: linear-gradient(blue, green) !important;
     }
 }
 
