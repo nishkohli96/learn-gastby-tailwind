@@ -23,7 +23,7 @@ const FontStyles = () => {
             />
             <div className="bg-clip-border p-6 bg-indigo-600 border-4 border-indigo-300 border-dashed">
                 some text
-            </div>{" "}
+            </div>
             <br />
             <div className="bg-clip-padding p-6 bg-indigo-600 border-4 border-indigo-300 border-dashed"></div>{" "}
             <br />
@@ -33,6 +33,22 @@ const FontStyles = () => {
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500">
                     Hello world
                 </span>
+            </div>
+            <div className="bg-gradient-to-tr from-orange-400 via-red-500 to-pink-500 p-2">
+                {" "}
+                some text
+            </div>
+            <div className="rounded-lg bg-blue-400"> rounded </div>
+            <div className="rounded-full py-3 px-6 bg-pink-600">Pill Shape</div>
+            <div className="rounded-full h-24 w-24 flex items-center justify-center  bg-pink-600">
+                Circle
+            </div>
+            {/* Rounding sides */}
+            <div className="rounded-r-lg bg-blue-400">.rounded-r-lg</div> <br />
+            {/* Rounding Corners */}
+            <div className="rounded-bl-lg bg-blue-400">
+                {" "}
+                diff corners rounded
             </div>
         </div>
     );

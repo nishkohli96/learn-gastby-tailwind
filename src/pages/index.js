@@ -34,13 +34,17 @@ const IndexPage = () => (
             <br />
             <Link to="/darkmode">
                 <span style={{ color: "#D74654" }}>DarkMode Page</span>
-            </Link>{" "}
+            </Link>
             <br />
             <Link to="/container">Container</Link> <br />
             <Link to="/flex">More Examples of Layouts</Link> <br />
             <Link to="/fontstyles" className="line-through text-blue-600">
                 Font styles and borders
-            </Link>{" "}
+            </Link>
+            <br />
+            <Link to="/miscstyles" className=" text-blue-600">
+                Misc
+            </Link>
             <br />
         </div>
     </Layout>

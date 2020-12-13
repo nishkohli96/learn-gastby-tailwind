@@ -12,9 +12,14 @@ module.exports = {
             colors: {
                 primary: "var(--primary)",
                 secondary: "var(--secondary)",
+                accent: "var(--accent)",
                 "main-text": "var(--text-main)",
                 "secondary-text": "var(--text-secondary)",
                 "regal-blue": "#243c5a",
+            },
+            fontSize: {
+                "16px": ["16px", "24px"], // ie. [fontsize,line-height]
+                "22px": ["22px", "30px"],
             },
         },
     },
