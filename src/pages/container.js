@@ -43,9 +43,9 @@ const ContainerPage = () => {
                 </span>
             </div>
 
-            <img className="float-left w-10 h-10" src={Logo} alt="test" />
-            <img className="float-right w-12 h-12" src={Logo} alt="test" />
-            <p className="clear-left ...">
+            <img className="float-left w-10 h-10 mx-2" src={Logo} alt="test" />
+            <img className="float-right w-14 h-14" src={Logo} alt="test" />
+            <p className="clear-none">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Name
                 bla bla Name bla blaName bla blaName bla blaName bla blaName bla
                 blaName bla blaName bla blaName bla blaName bla blaName bla
@@ -56,6 +56,23 @@ const ContainerPage = () => {
                 blaName bla blaName bla blaName bla blaName bla blaName bla
                 blaName bla blaName bla blaName bla bla
             </p>
+
+            <div className="bg-rose-300">
+                <img
+                    className="object-contain h-48 w-full"
+                    src={Logo}
+                    alt="test"
+                />
+            </div>
+
+            <img
+                className="object-none object-right-top bg-yellow-300 w-24 h-24"
+                src={Logo}
+                alt="test"
+            />
+            <div className="overflow-auto h-32 ...">
+                Lorem ipsum dolor sit amet...
+            </div>
         </div>
     );
 };

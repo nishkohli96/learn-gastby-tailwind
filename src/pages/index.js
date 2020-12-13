@@ -16,14 +16,14 @@ const IndexPage = () => (
             </div>
             <Link to="/page-2" className="text-red-400 visited:text-purple-600">
                 Go to page 2
-            </Link>{" "}
+            </Link>
             <br />
             <Link
                 to="/using-typescript"
                 className="text-blue-400 visited:text-pink-600"
             >
                 Go to "Using TypeScript"
-            </Link>{" "}
+            </Link>
             <br />
             <Link
                 to="/tailwindbasics"
@@ -32,8 +32,16 @@ const IndexPage = () => (
                 Tailwind Demo
             </Link>
             <br />
-            <Link to="/darkmode">DarkMode Page</Link> <br />
-            <Link to="/container">Container</Link>
+            <Link to="/darkmode">
+                <span style={{ color: "#D74654" }}>DarkMode Page</span>
+            </Link>{" "}
+            <br />
+            <Link to="/container">Container</Link> <br />
+            <Link to="/flex">More Examples of Layouts</Link> <br />
+            <Link to="/fontstyles" className="line-through text-blue-600">
+                Font styles and borders
+            </Link>{" "}
+            <br />
         </div>
     </Layout>
 );
