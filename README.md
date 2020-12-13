@@ -1,4 +1,4 @@
-# Learm-GatsbyJS & Tailwind CSS
+# Learn-GatsbyJS & Tailwind CSS
 
 [GatsbyJS](https://www.gatsbyjs.com/) is used to create fast static websites in React. I would highly recommend learning and using [TailwindCSS](https://tailwindcss.com/) as it would make your life much easier to create beautiful UI. 
 
