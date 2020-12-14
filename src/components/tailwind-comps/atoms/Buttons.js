@@ -24,7 +24,7 @@ const Buttons = () => {
                 Responsive Hover color
             </button>
 
-            <a href="/" class="text-blue-600 visited:text-red-600 mr-5 mb-5">
+            <a href="/" className="text-blue-600 visited:text-red-600 mr-5 mb-5">
                 Visited Link
             </a>
 

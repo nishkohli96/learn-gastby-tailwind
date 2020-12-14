@@ -11,7 +11,7 @@ const InputForm = () => {
                 <input
                     type="checkbox"
                     aria-label="Option"
-                    class="checked:bg-blue-600 w-5 h-5 checked:border-transparent ml-5"
+                    className="checked:bg-blue-600 w-5 h-5 checked:border-transparent ml-5"
                 />
             </form>
 
